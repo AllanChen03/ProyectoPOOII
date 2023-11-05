@@ -21,6 +21,10 @@ public class Ficha {
         this.label = label;
     }
 
+    public JLabel getLabel() {
+        return label;
+    }
+
     public int getFicha() {
         return ficha;
     }
